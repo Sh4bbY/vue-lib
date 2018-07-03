@@ -1,5 +1,5 @@
-import HelloWorld from './HelloWorld.vue';
+import Example from './Example/Example';
 
 export {
-  HelloWorld,
+  Example,
 };

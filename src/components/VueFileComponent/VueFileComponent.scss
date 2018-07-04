@@ -1,0 +1,6 @@
+$color: red;
+
+.vue-file-component {
+  color: $color;
+  border: 1px dashed $color;
+}

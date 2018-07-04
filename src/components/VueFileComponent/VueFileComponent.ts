@@ -3,10 +3,9 @@ import {Component} from 'vue-property-decorator';
 
 @Component
 export default class Example extends Vue {
+  count = 0;
 
-  /** ------------ Getter / Setter ------------ */
-
-  public get text() {
-    return 'Example Text';
+  get name() {
+    return 'VueFileComponent';
   }
 }

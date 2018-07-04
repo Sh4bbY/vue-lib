@@ -1,29 +1,21 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <Example/>
+    <VueClassComponent/>
+    <VueComponent/>
+    <VueFileComponent/>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import Example from './components/Example/Example';
+  import { Component, Vue } from 'vue-property-decorator';
+  import { VueClassComponent, VueComponent, VueFileComponent } from './components';
 
-@Component({
-  components: {
-    Example,
-  },
-})
-export default class App extends Vue {}
+  @Component({
+    components: {
+      VueClassComponent,
+      VueComponent,
+      VueFileComponent,
+    },
+  })
+  export default class App extends Vue {}
 </script>
-
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

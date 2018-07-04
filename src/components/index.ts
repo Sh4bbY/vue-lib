@@ -1,5 +1,9 @@
-import Example from './Example/Example';
+import {VueComponent} from './VueComponent/VueComponent';
+import VueClassComponent from './VueClassComponent/VueClassComponent';
+import VueFileComponent from './VueFileComponent/VueFileComponent';
 
 export {
-  Example,
+  VueClassComponent,
+  VueFileComponent,
+  VueComponent,
 };

@@ -1,0 +1,6 @@
+$color: green;
+
+.vue-class-component {
+  color: $color;
+  border: 1px dashed $color;
+}
